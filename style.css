@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left Container Styles */
+  .left-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    height:760px;
+  }
+  
+  /* Left Div Styles */
+  .left-div {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #110202;
+    margin: 5px;
+    height: 600px;
+    background-color: #cdeaeb;
+  }
+  
+  /* Left Bottom Styles */
+  .left-bottom {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #1b1818;
+    margin: 5px;
+    height: 100px;
+    background-color: #c0ccd2;
+  }
+  
+ 
+  /* Form Styles */
+  #form {
+    align-items: center;
+    width: 600px;
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    color: #913d87;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #913d87;
+    color: white;
+    border: 1px solid #913d87;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width:90%;
+  }
+  
+  /* Input and Select Styles */
+  .input-group {
+    display: table;
+    display:table-row;
+  }
+  label,input,select{
+    display:table-cell;
+    margin-bottom:0 ;
+  }
+  label{
+    padding-left: 30px;
+    padding-right:50px;
+  }
+  
+  .input-group input, select {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px; /* Adjusted font size for better fit */
+    margin-top:0px; /* Adjusted margin for better spacing */
+    border: 1px solid rgb(85, 179, 251);
+    padding: 5px; /* Added padding for input elements */
+  }
+  #sport-filter,search{
+    font-size:16px;
+    margin-top:30px;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  #search{
+padding: 8px;
+border: 1px solid blue;
+  }
+  
+  .input-group input, select:focus {
+    outline: 0;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    color: red;
+    font-style: italic;
+    font-size: 14px; /* Adjusted font size for error messages */
+    margin-top:5px; /* Adjusted margin for better spacing */
+    margin-bottom:10px;
+  }
+  
+  .right-div {
+    border: 2px solid #1b1818;    width: 100%;
+    height:760px; /* Adjust the height as needed */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    display: flex;
+    flex-direction: column;
+  
+    /* You may want to add some styles for a smooth scrolling experience */
+    
+    background-color: rgb(231, 195, 178);
+  }
+  
+  /* Add any other card styles as needed */
+  /* Add this CSS to your stylesheet */
+  
+  .left-bottom{
+   background-color: rgb(243, 154, 162);
+  }
+  /* Your CSS styles go here */
+
+/* Example user card style */
+.user-card{
+  margin: 50px;
+  position: relative;
+  border: 2px solid black;
+  width:400px;
+  
+}
+
+.user-card img {
+    width: 400px;
+    height:250px;
+    border-radius: 5px;
+    filter: blur(5px);
+}
+
+/* .user-card .info {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; 
+    
+} */
+.user-card .info{
+  position: absolute;
+    top:50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+     max-width: 90%;
+}
+
+.user-card .info h3, .user-card .info p {
+    margin: 0;
+    padding:1px;
+   
+}
+.info h3{
+    font-size: 22px;
+    color: #f50e0e;
+    text-align: center;
+
+}
+.info p{
+  font-size:24px;
+  transform: translate(-20%,30%);
+}
+
+.info button{
+  transform: translate(-120%,30%);
+  padding: 10px;
+    width:70px;
+    color: #cdeaeb;
+    font-size:10px;
+    cursor: pointer;
+  }
+ 
+
+  
